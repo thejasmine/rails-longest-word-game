@@ -1,3 +1,23 @@
-// Place all the styles related to the games controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+$gray: #F4F4F4;
+
+
+body {
+  background: $gray;
+  font-family: 'Lato', sans-serif;
+  padding:20px;
+}
+
+span {
+  padding:10px;
+  margin-bottom: 5px;
+  background:white;
+  border-radius: 10px;
+  width:20px;
+  height: 20px;
+}
+
+form {
+  margin-top:20px;
+  width:50vw;
+}

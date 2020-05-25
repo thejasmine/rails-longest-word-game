@@ -1,4 +1,8 @@
-<%= @letters %>
+<div class="display">
+  <% @letters.each do |letter|%>
+    <span><%= letter %></span>
+  <% end %>
+</div>
 
 <form action="/score" method="post">
   <input type="text" name="answer" placeholder="What's the longest word you can find?">
